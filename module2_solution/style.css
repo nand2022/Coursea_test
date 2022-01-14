@@ -1,0 +1,130 @@
+<style>
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+#box {
+  background-color: #bfbfbf;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-right: 10px;
+  overflow: auto;
+  float: left;
+  position: relative;
+
+}
+
+#boxs1{
+
+ background-color: #D59898;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 30%;
+  
+  text-align: center;
+  
+}
+
+#boxs2{
+
+ background-color:#C14543 ;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 30%;
+  
+  text-align: center;
+  
+}
+
+
+#boxs3{
+
+ background-color: #E5D198;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 30%;
+  
+  text-align: center;
+  
+}
+
+
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  
+   .col1{
+     width: 30%;
+   }
+   .col2{
+     width: 30%;
+   }
+   .col3{
+    clear: both;
+     width: 30%;
+   }
+
+   
+  
+  
+}
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col1{
+     width: 46%;
+   }
+   .col2{
+     width: 46%;
+   }
+   .col3{
+
+     width: 991px;
+   }
+
+   
+  
+}
+
+
+/********** Mobile only **********/
+
+@media (max-width: 767px) {
+
+
+   .col1{
+     width: 100%;
+   }
+   .col2{
+     width: 100%;
+   }
+   .col3{
+     width: 100%;
+   }
+  
+  }
+
+
+
+</style>
